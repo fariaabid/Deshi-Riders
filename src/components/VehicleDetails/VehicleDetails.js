@@ -14,22 +14,6 @@ const VehicleDetails = (props) => {
       <div className="col-md-2">
         <h5>{vehicleName}</h5>
       </div>
-      {/* <div className="col-md-5 icon">
-          <img src="../../images/icons/peopleicon.png" alt=""/>
-      </div>
-      <div className="col-md-1">
-        <p>{seat}</p>
-      </div> */}
-      {/* <div className="col-md-3">
-        <div className="row d-flex">
-          <div className="col-md-6">
-            <img src="../../images/icons/peopleicon.png" alt="" />
-          </div>
-          <div className="col-md-6">
-            <p>{seat}</p>
-          </div>
-        </div>
-      </div> */}
       <div className="col-md-3">
       <h5>Seat:{seat}</h5>
       </div>
