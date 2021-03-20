@@ -6,7 +6,7 @@ var vehicleDetails =
       "vehicleName":"Bike",
       "seat": "1",
       "vehicleFare": "34",
-      "img": "https://ibb.co/k25ySNc"
+      "img": "https://i.imgur.com/oS1YtIY.jpg"
     },
     {
       "vehicleId": 0,
@@ -14,7 +14,7 @@ var vehicleDetails =
       "vehicleName":"Bike",
       "seat": "1",
       "vehicleFare": "40",
-      "img": "https://ibb.co/k25ySNc"
+      "img": "https://i.imgur.com/oS1YtIY.jpg"
     },
     {
       "vehicleId": 0,
@@ -22,7 +22,7 @@ var vehicleDetails =
       "vehicleName":"Bike",
       "seat": "1",
       "vehicleFare": "45",
-      "img": "https://ibb.co/k25ySNc"
+      "img": "https://i.imgur.com/oS1YtIY.jpg"
     },
     {
       "vehicleId": 1,
@@ -30,7 +30,7 @@ var vehicleDetails =
       "vehicleName":"Car",
       "seat": "4",
       "vehicleFare": "67",
-      "img": "https://ibb.co/j58qv2g"
+      "img": "https://i.imgur.com/BoK05h8.jpg"
     },
     {
       "vehicleId": 1,
@@ -38,7 +38,7 @@ var vehicleDetails =
       "vehicleName":"Car",
       "seat": "4",
       "vehicleFare": "75",
-      "img": "https://ibb.co/j58qv2g"
+      "img": "https://i.imgur.com/BoK05h8.jpg"
     },
     {
       "vehicleId": 1,
@@ -46,7 +46,7 @@ var vehicleDetails =
       "vehicleName":"Car",
       "seat": "4",
       "vehicleFare": "80",
-      "img": "https://ibb.co/j58qv2g"
+      "img": "https://i.imgur.com/BoK05h8.jpg"
     },
     {
       "vehicleId": 2,
@@ -54,7 +54,7 @@ var vehicleDetails =
       "vehicleName":"Bus",
       "seat": "25",
       "vehicleFare": "25",
-      "img": "https://ibb.co/YyKSCMY"
+      "img": "https://i.imgur.com/cY8rwDh.jpg"
     },
     {
       "vehicleId": 2,
@@ -62,7 +62,7 @@ var vehicleDetails =
       "vehicleName":"Bus",
       "seat": "25",
       "vehicleFare": "30",
-      "img": "https://ibb.co/YyKSCMY"
+      "img": "https://i.imgur.com/cY8rwDh.jpg"
     },
     {
       "vehicleId": 2,
@@ -70,7 +70,7 @@ var vehicleDetails =
       "vehicleName":"Bus",
       "seat": "25",
       "vehicleFare": "45",
-      "img": "https://ibb.co/YyKSCMY"
+      "img": "https://i.imgur.com/cY8rwDh.jpg"
     },
     {
       "vehicleId": 3,
@@ -78,7 +78,7 @@ var vehicleDetails =
       "vehicleName":"Train",
       "seat": "50",
       "vehicleFare": "10",
-      "img": "https://ibb.co/GJbT61V"
+      "img": "https://i.imgur.com/mtK8UA5.jpg"
     },
     {
       "vehicleId": 3,
@@ -86,7 +86,7 @@ var vehicleDetails =
       "vehicleName":"Train",
       "seat": "50",
       "vehicleFare": "20",
-      "img": "https://ibb.co/GJbT61V"
+      "img": "https://i.imgur.com/mtK8UA5.jpg"
     },
     {
       "vehicleId": 3,
@@ -94,7 +94,7 @@ var vehicleDetails =
       "vehicleName":"Train",
       "seat": "50",
       "vehicleFare": "30",
-      "img": "https://ibb.co/GJbT61V"
+      "img": "https://i.imgur.com/mtK8UA5.jpg"
     }
 ];
 

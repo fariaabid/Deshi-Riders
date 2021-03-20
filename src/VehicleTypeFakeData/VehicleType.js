@@ -3,25 +3,25 @@ var vehicleType =
     {
       "id": 0, 
       "vehicleName": "Bike",
-      "img": "https://ibb.co/k25ySNc"
+      "img": "https://i.imgur.com/oS1YtIY.jpg"
       
     },
     {
       "id": 1, 
       "vehicleName": "Car",
-      "img": "https://ibb.co/j58qv2g"
+      "img": "https://i.imgur.com/BoK05h8.jpg"
       
     },
     {
       "id": 2, 
       "vehicleName": "Bus",
-      "img": "https://ibb.co/YyKSCMY"
+      "img": "https://i.imgur.com/cY8rwDh.jpg"
       
     },
     {
       "id": 3, 
       "vehicleName": "Train",
-      "img": "https://ibb.co/GJbT61V"
+      "img": "https://i.imgur.com/mtK8UA5.jpg"
       
     }
 ];
