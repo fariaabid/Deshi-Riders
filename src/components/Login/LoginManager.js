@@ -25,6 +25,7 @@ export const handleGoogleSignIn = () => {
         .catch(error => {
             console.log(error);
             console.log(error.message);
+            alert(error.message);
         })
 }
 export const handleFbSignIn = () => {
@@ -43,6 +44,7 @@ export const handleFbSignIn = () => {
             return signedInUser;
         }).catch(error => {
             var errorMessage = error.message;
+            alert(error.message);
             console.log(errorMessage);
         });
 }
@@ -61,6 +63,7 @@ export const handleSignOut = () => {
         })
         .catch(err => {
             console.log(err)
+            alert(error.message);
         })
 }
 
@@ -110,5 +113,6 @@ const updateUserName = displayName => {
         console.log('User name updated successfully!')
     }).catch(function (error) {
         console.log(error)
+        alert(error.message);
     });
 }
