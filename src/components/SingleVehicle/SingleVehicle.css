@@ -1,9 +1,7 @@
 .single-vehicle img{
-    height: 250px;
-    width: 250px;
-    /* margin-top: 250px; */
-    border-radius:25px;    
-    /* border:2px solid transparent; */
+    height: 200px;
+    width: 200px;
+    border-radius:25px;
     transition:.3s;
 }
 .single-vehicle img:hover{
@@ -15,5 +13,6 @@
     color: black;
 }
 .single-vehicle{
-    margin: 250px 20px 0 10px;
+    margin: 200px 0 0 10px;
+    
 }

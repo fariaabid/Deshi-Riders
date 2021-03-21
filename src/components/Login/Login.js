@@ -91,6 +91,7 @@ const Login = () => {
     // -----------------------submit event handler------------------------
     const handleSubmit = (e) => {
         if (newUser && user.email && user.password) {
+            alert("Are You Sure?");
             createUserWithEmailAndPassword(user.name, user.email, user.password)
                 .then(res => {
                     handleResponse(res, true);

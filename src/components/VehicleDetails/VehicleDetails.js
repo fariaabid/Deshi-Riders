@@ -23,7 +23,7 @@ const VehicleDetails = (props) => {
           </h5>
         </div>
         <div className="col-md-4">
-          <h5>${vehicleFare}</h5>
+          <h5>${vehicleFare}/seat</h5>
         </div>
       </div>
     </div>
