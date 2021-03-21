@@ -63,7 +63,7 @@ export const handleSignOut = () => {
         })
         .catch(err => {
             console.log(err)
-            alert(error.message);
+            alert(err.message);
         })
 }
 
