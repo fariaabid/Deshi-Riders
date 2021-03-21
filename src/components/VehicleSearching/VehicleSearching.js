@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import Header from '../Header/Header';
 import { useHistory, useParams } from 'react-router-dom';
@@ -21,20 +21,20 @@ const VehicleSearching = () => {
     const handleProceedBooking =()=>{
         history.push(`/vehicleConfirmation/${id}`)
     }
-
-    return (
+    return(
         <div className="home">
             <HeaderWithUserName></HeaderWithUserName>
+            
             <Container>
                 <div className="d-flex justify-content-center align-items-center my-5">
-                    <div className="col-md-5 bookingPage-info text-white">
+                    <div className="col-md-7 bookingPage-info text-white">
                     <GoogleMap></GoogleMap>
                     </div>
-                    <div className="col-md-5 offset-md-2">
+                    <div className="col-md-5 ">
                         <div className="row">
                             <form className="bookingPage-form" onSubmit={handleProceedBooking}>
                                 <label>Pick From</label>
-                                <input name="pickFrom" placeholder="Enter your pick up address" ref={register({ required: true })} />
+                                <input name="pickFrom"  placeholder="Enter your pick up address" ref={register({ required: true })} />
                                 {errors.pickFrom && <span className="error">Pick From is required</span>}
 
                                 <label>Pick To</label>
@@ -60,7 +60,7 @@ const VehicleSearching = () => {
                 </div>
             </Container>
         </div>
-    );
+    )
 };
 
 export default VehicleSearching;
