@@ -77,6 +77,7 @@ export const createUserWithEmailAndPassword = (name, email, password) => {
             const newUserInfo = {};
             newUserInfo.error = error.message;
             newUserInfo.success = false;
+            alert(error.message);
             return newUserInfo;
         });
 }
@@ -96,6 +97,7 @@ export const signInWithEmailAndPassword = (email, password) => {
             const newUserInfo = {};
             newUserInfo.error = error.message;
             newUserInfo.success = false;
+            alert(error.message);
             return newUserInfo;
         });
 }
